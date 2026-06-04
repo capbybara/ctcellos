@@ -22,6 +22,20 @@
     <header class="text-center space-y-2 pb-8 border-b border-stone-200">
       <span class="font-serif-elegant text-4xl font-medium tracking-wide uppercase text-stone-900 block">CTCellos</span>
       <span class="text-xs tracking-widest text-stone-400 uppercase font-medium block">The Cello Duo for Any Occasion</span>
+      
+      <nav class="pt-6">
+        <ul class="flex justify-center space-x-8 text-xs font-medium tracking-widest uppercase">
+          <li>
+            <a href="index.html" class="text-stone-900 border-b border-stone-900 pb-1 transition-colors">Home</a>
+          </li>
+          <li>
+            <a href="repertoire.html" class="text-stone-400 hover:text-stone-700 transition-colors">Repertoire</a>
+          </li>
+          <!-- <li>
+            <a href="gallery.html" class="text-stone-400 hover:text-stone-700 transition-colors">Gallery</a>
+          </li> -->
+        </ul>
+      </nav>
     </header>
 
     <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 text-center max-w-2xl mx-auto">
@@ -44,7 +58,7 @@
     <section class="grid grid-cols-1 md:grid-cols-5 gap-12 items-center pt-4">
       <div class="space-y-4 md:col-span-3">
         <h2 class="font-serif-elegant text-3xl italic text-stone-900">About Us</h2>
-        <p class="text-stone-600 leading-relaxed text-lg font-serif-elegant italic">
+        <p class="text-stone-600 leading-relaxed text-lg font-DM-sans bold">
           We are two cellists who have a combined 30+ years of experience playing, studying, and performing cello. Currently, we are both college students in Connecticut. We have been playing together for over 10 years, and we have performed at a wide variety of events, including weddings, university events, and private parties. We bring passion and professionalism to every performance. Please get in touch to book us for any event! 
         </p>
         
@@ -52,15 +66,14 @@
       <div class="flex justify-center md:col-span-2">
         <div class="p-2 border border-stone-200 bg-white shadow-md rounded-sm tracking-wide">
           <img id="profile-pic" src="src/IMG_2190.png" alt="Tim and Charles" 
-               class="filter grayscale hover:grayscale-0 transition-all duration-500 object-cover w-full max-w-xs aspect-[3/4] grayscale-0"
+               class="filter  hover:grayscale transition-all duration-500 object-cover w-full max-w-xs aspect-[3/4]"
           />
         </div>
       </div>
     </section>
 
     <section class="text-center hover:bg-blue-200 transition-colors duration-300 rounded-md py-8">
-          <!-- Google Calendar Appointment Scheduling begin -->
-      <link  href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+          <link  href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
       <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
       <script>
       (function() {
@@ -75,8 +88,7 @@
         });
       })();
       </script>
-      <!-- end Google Calendar Appointment Scheduling -->
-    </section>
+      </section>
   </div>
 
   <footer class="text-center text-stone-400 text-xs tracking-wider uppercase py-12 border-t border-stone-200">
